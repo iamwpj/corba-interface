@@ -1,0 +1,7 @@
+.idea/
+sample/
+out/
+HelloApp/
+550-corba.iml
+orb*
+*.class
