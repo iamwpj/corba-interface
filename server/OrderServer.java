@@ -20,7 +20,7 @@ class OrderManager extends OrderPOA {
     static String[] orders = new String[9999];
     static String[] statuses = new String[9999];
 
-    public String sayHello() {
+    public String sayHello() {    
         return "Hello!\n";
     }
 
@@ -100,6 +100,7 @@ public class OrderServer {
             // get the root naming context
             // NameService invokes the name service
             org.omg.CORBA.Object objRef = orb.resolve_initial_references("NameService");
+            
             // Use NamingContextExt which is part of the Interoperable
             // Naming Service (INS) specification.
             NamingContextExt ncRef = NamingContextExtHelper.narrow(objRef);
