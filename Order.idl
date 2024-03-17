@@ -1,0 +1,12 @@
+module OrderApp
+{
+  interface Order {
+    string sayHello();
+    oneway void setPin(in long pin);
+    string printMenu();
+    string placeOrder(in string order, in long pin);
+    string statusOrder(in long pin);
+    boolean assumeManager(in long pin);
+    string listOrders();
+  };
+};

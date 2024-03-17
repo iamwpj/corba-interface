@@ -1,7 +1,10 @@
 .idea/
 sample/
 out/
-HelloApp/
+OrderApp/
 550-corba.iml
 orb*
 *.class
+*.pid
+idl_hash
+test.java
