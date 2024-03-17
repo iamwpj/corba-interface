@@ -8,3 +8,7 @@ orb*
 *.pid
 idl_hash
 test.java
+client/
+server/
+!client/OrderClient.java
+!server/OrderServer.java
